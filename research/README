@@ -1,14 +1,12 @@
 # Research
 
-AI Research
-
 ### References
 
-**Supervised Learning**
-- PAC learning.three lines of math prove supervised learning
-- this is what motivated openai
+**Supervised**
+- PAC Learning Theory: Hastie/Tibshirani, Boyd/Vandenberghe
+- Roberts, Yaida
 
-**Unsupervised Learning**
-- Li
-- Solomonoff
-- Hutter
+**Unsupervised**
+- Universal Artificial Intelligence: Hutter
+- Energy-based Deep Learning: Canziani/LeCun
+- Tensor Programs: Yang
