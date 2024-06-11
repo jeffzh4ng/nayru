@@ -1,16 +1,42 @@
 # Models
 
-- linear regression
-- logistic regression
-- k-nearest neighbors
-- decision trees
+- linear models
+- nonparametric models: kernel methods, trees, forests
 - support vector machines
+
+### Roadmap
+
+**Phase 1 (1960-2000): Single-layer**
+- linear models
+- non-parametric models: kernel methods, trees, forests
+- support vector machines
+
+**Phase 2 (2000-2010): Convex Regularization**
+- lasso
+- matrix sensing
+- SDP programming
+- SoS
+
+**Phase 3 (2010-today): Multi-layer**
+- neural networks
+
+Models in phase 1 learned via convex optimization. Models in phase 2 learned via
+convex relaxation. Models in phase 3 learned via non-convex opti
+
+
+// for most people, optimization is two lines of code.
+optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
+optimizer.step()
+
+// someone training a LLM/GAN might need optim.Adam
+
+
 
 ### References
 
 **Classical**
 - Hastie, Tibshirani
-- Daumé III
+- Daumé
 
 **Neural Networks**
 - Goodfellow
@@ -18,3 +44,12 @@
 - Bishop
 - Scardapane
 - Fleuret
+
+**Theory**
+- AIXI: Hutter
+- PAC/VC:
+    1. Shalev-Shwartz/Ben-David
+    2. Mohri, Rostamizadeh, Talwalkar
+- Tensor Programs: Yang
+- TODO: Roberts, Yaida
+- Energy-based Deep Learning: Canziani/LeCun
