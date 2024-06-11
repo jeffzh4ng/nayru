@@ -1,9 +1,20 @@
 # Models
 
+- linear regression
+- logistic regression
+- k-nearest neighbors
+- decision trees
+- support vector machines
+
 ### References
-- Goodfellow
-- Bishop
-- Prince
-- Scardapane
+
+**Classical**
+- Hastie, Tibshirani
 - Daumé III
+
+**Neural Networks**
+- Goodfellow
+- Prince
+- Bishop
+- Scardapane
 - Fleuret
