@@ -1,7 +1,7 @@
 # nayru
 ![](./nayru.gif)
 
-**nayru: AI models and compilers**
+**nayru: software 2.0 compiler**
 
 - [Models](./models/README)
-- [Compilers](./compiler/README)
+- [Autograd](./autograd/README)

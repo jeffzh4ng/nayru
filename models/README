@@ -1,51 +1,29 @@
 # Models
 
-- linear models
-- nonparametric models: kernel methods, trees, forests
-- support vector machines
+Models implemented in Pytorch and numpy.
 
 ### Roadmap
 
-**Vision**
-- MNIST
-- Fashion-MNIST
-- CIFAR
-- ImageNet
+**Classical**
+- Naive Bayes
+- Logistic Regresison
+- SVM
+- Random forest
 
-**Language**
-- 
+**Deep Learning**
 
-Models in phase 1 learned via convex optimization. Models in phase 2 learned via
-convex relaxation. Models in phase 3 learned via non-convex opti
+*Vision*
+- MNIST, CIFAR, ImageNet
+- Diffusion
 
-
-// for most people, optimization is two lines of code.
-optimizer = optim.SGD(model.parameters(), lr=0.01, momentum=0.9)
-optimizer.step()
-
-// someone training a LLM/GAN might need optim.Adam
-
-
+*Language*
+- GPT2
 
 ### References
-
-**Classical**
 - Hastie, Tibshirani
 - Murphy
 - Daumé
-
-**Neural Networks**
 - Goodfellow
 - Prince
 - Bishop
 - Scardapane
-- Fleuret
-
-**Theory**
-- AIXI: Hutter
-- PAC/VC:
-    1. Shalev-Shwartz/Ben-David
-    2. Mohri, Rostamizadeh, Talwalkar
-- Tensor Programs: Yang
-- TODO: Roberts, Yaida
-- Energy-based Deep Learning: Canziani/LeCun
