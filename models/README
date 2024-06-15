@@ -1,23 +1,25 @@
 # Models
 
-Models implemented in Pytorch and numpy.
+Vision and language models are implemented once with Pytorch, and another with
+nayru. Formalizations of supervised learning with PAC theory, and various
+architectures such as CNNs, RNNs, and Transformers can be found in
+[README.tex](./README.tex)
 
 ### Roadmap
+**Vision**
+- mnist.py
+- cifar.py
+- imagenet.py
+- sd.py
 
-**Classical**
-- Naive Bayes
-- Logistic Regresison
-- SVM
-- Random forest
+- mnist.rs
+- cifar.rs
+- imagenet.rs
+- sd.rs
 
-**Deep Learning**
-
-*Vision*
-- MNIST, CIFAR, ImageNet
-- Diffusion
-
-*Language*
-- GPT2
+**Language**
+- llm.py
+- llm.rs
 
 ### References
 - Hastie, Tibshirani
