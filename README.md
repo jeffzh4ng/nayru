@@ -3,5 +3,7 @@
 
 **nayru: software 2.0 compiler**
 
-- [Models](./models/README)
+Reproduced GPT2 and SD2 in Pytorch, and nayru.
+
 - [Autograd](./autograd/README)
+- [Models](./models/README)

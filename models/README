@@ -1,31 +1,36 @@
 # Models
 
-Vision and language models are implemented once with Pytorch, and another with
-nayru. Formalizations of supervised learning with PAC theory, and various
-architectures such as CNNs, RNNs, and Transformers can be found in
-[README.tex](./README.tex)
+Vision and language models are implemented once with Pytorch, once with nayru.
+Formalizations of learning theory and various architectures can be found in
+README.tex
 
 ### Roadmap
 **Vision**
-- mnist.py
-- cifar.py
-- imagenet.py
+- cnn.py
 - sd.py
+- lnn.py
 
-- mnist.rs
-- cifar.rs
-- imagenet.rs
+- cnn.rs
 - sd.rs
 
 **Language**
-- llm.py
-- llm.rs
+- rnn.py
+- lstm.py
+- tf.py
+- lnn.py
+
+- rnn.rs
+- lstm.rs
+- tf.rs
+- lnn.rs
 
 ### References
+- Hutter, Quarel, Catt
+- Shai Shalev-Shwartz, Shai Ben-David
 - Hastie, Tibshirani
-- Murphy
 - Daumé
+- Scardapane
+- Murphy
 - Goodfellow
 - Prince
 - Bishop
-- Scardapane

@@ -1,11 +1,12 @@
 # Autograd
 
-Automatic differentiation engine that implements a Torch-like API and targets
-CUDA, TT-Metal, and {MLIR/TVM/ONNX}. Formalizations of convex optimizers such as
-gradient descent, mirror descent, and non-convex optimizers, hessian descent, and
-noisy gradient descent can be found in [README.tex](./README.tex)
+Automatic differentiation compiler that implements a Torch-like API and targets
+CUDA, TT, and MLIR. Formalizations of convex and non-convex solvers can be
+found in README.tex
 
 ### References
+
+**Textbooks**
 - Aggarwal
 - Hwu, Kirk, Hajj
 - Hennesey, Patterson
