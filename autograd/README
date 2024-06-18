@@ -5,8 +5,9 @@ CUDA, TT, and MLIR. Formalizations of convex and non-convex solvers can be
 found in README.tex
 
 ### References
-
-**Textbooks**
 - Aggarwal
+- Peyré
+- Recht, Wright
+- Strang
 - Hwu, Kirk, Hajj
 - Hennesey, Patterson

@@ -7,10 +7,13 @@ README.tex
 ### Roadmap
 **Vision**
 - cnn.py
+- rn.py
 - sd.py
 - lnn.py
 
 - cnn.rs
+- rn.rs
+- sd.rs
 - sd.rs
 
 **Language**
