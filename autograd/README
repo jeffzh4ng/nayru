@@ -5,9 +5,30 @@ CUDA, TT, and MLIR. Formalizations of convex and non-convex solvers can be
 found in README.tex
 
 ### References
+To understand two lines of Pytorch:
+
+```
+optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)
+optimizer.step()
+```
+
+**Convex Optimization**
+- Rockafellar
+- Nesterov
+- Boyd
+- Bubeck
+- Recht, Wright
+
+**Non-convex Optimization**
+- Farina
 - Aggarwal
 - Peyré
-- Recht, Wright
 - Strang
+
+**Online Optimization**
+- Hazan
+- Shwartz
+
+**Parallel Processing**
 - Hwu, Kirk, Hajj
 - Hennesey, Patterson

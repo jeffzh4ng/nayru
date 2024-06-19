@@ -1,39 +1,26 @@
 # Models
 
 Vision and language models are implemented once with Pytorch, once with nayru.
-Formalizations of learning theory and various architectures can be found in
+Formalizations of learning theory and various model architectures can be found in
 README.tex
 
 ### Roadmap
 **Vision**
-- cnn.py
-- rn.py
-- sd.py
-- lnn.py
-
-- cnn.rs
-- rn.rs
-- sd.rs
-- sd.rs
+- cnn/rn: mnist, cifar, imagenet
+- sd:
 
 **Language**
-- rnn.py
-- lstm.py
-- tf.py
-- lnn.py
-
-- rnn.rs
-- lstm.rs
-- tf.rs
-- lnn.rs
+- rnn/lstm:
+- tf: hellaswag, mmlu
+- lnn:
 
 ### References
 - Hutter, Quarel, Catt
 - Shai Shalev-Shwartz, Shai Ben-David
+- Liang
 - Hastie, Tibshirani
 - Daumé
 - Scardapane
 - Murphy
-- Goodfellow
 - Prince
 - Bishop
