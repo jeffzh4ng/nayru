@@ -1,8 +1,8 @@
 # Autograd
 
-Automatic differentiation compiler that implements a Torch-like API and targets
-CUDA, TT, and MLIR. Formalizations of convex and non-convex solvers can be
-found in README.tex
+Deep learning compiler that implements a Torch-like API and targets CUDA, TT, and
+ONNX. Supports both training and inference (can run LLaMA and SD). Formalizations
+of solvers can be found in README.tex
 
 ### References
 To understand two lines of Pytorch:
@@ -14,8 +14,8 @@ optimizer.step()
 
 **Convex Optimization**
 - Rockafellar
+- Boyd, Vanderberghe
 - Nesterov
-- Boyd
 - Bubeck
 - Recht, Wright
 
