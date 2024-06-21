@@ -1,8 +1,8 @@
 # Autograd
 
 Deep learning compiler that implements a Torch-like API and targets CUDA, TT, and
-ONNX. Supports both training and inference (can run LLaMA and SD). Formalizations
-of solvers can be found in README.tex
+ONNX. Supports both training and inference (see here for whisper, YOLO, SD, and LLaMA)
+Formalizations of optimizers can be found in README.tex
 
 ### References
 To understand two lines of Pytorch:
