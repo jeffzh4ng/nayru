@@ -1,27 +1,11 @@
 # Models
 
-Vision and language models are implemented once with PyTorch, once with JAX, and
-lastly with nayru. Formalizations of model classes can be found in README.tex
-
 ### Roadmap
-- cnn/rn: mnist, cifar, imagenet
-- sd:
-- rnn/lstm:
-- tf: hellaswag, mmlu
-- ebm
-- pgm
-- rl
+**Vision**
+- mnist
+- cifar10
+- cifar100
+- tinyimagenet
+- imagenet
 
-### References
-
-**Statistical Learning**
-- Murphy
-- Hastie, Tibshirani
-- Hardt, Recht
-- Daumé
-
-**Representation Learning**
-- Prince
-- Scardapane
-- Zhang, Li, Smola, Lipton
-- Nielsen
+**Language**

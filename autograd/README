@@ -1,8 +1,4 @@
-# Autograd
-
-Deep learning compiler that implements a Torch-like API and targets CUDA, TT, and
-ONNX. Supports both training and inference (see here for whisper, YOLO, SD, and LLaMA)
-Formalizations of optimizers can be found in README.tex
+# nayrugrad
 
 ### References
 To understand two lines of Pytorch:
@@ -14,7 +10,6 @@ optimizer.step()
 
 **Convex Optimization**
 - Rockafellar
-- Boyd, Vanderberghe
 - Nesterov
 - Bubeck
 - Recht, Wright
