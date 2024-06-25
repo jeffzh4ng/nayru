@@ -1,4 +1,4 @@
-use compiler::engine::Expr;
+use autograd::engine::Expr;
 use ordered_float::NotNan;
 
 fn main() {

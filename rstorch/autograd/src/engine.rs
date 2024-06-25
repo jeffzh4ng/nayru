@@ -13,7 +13,7 @@ pub struct Expr {
     pub evaluated: NotNan<f32>,
     pub expr: Option<(Op, BTreeSet<Box<Expr>>)>,
     pub grad: NotNan<f32>,
-    pub backward: (),
+    // pub backward: (),
 }
 
 impl Expr {
