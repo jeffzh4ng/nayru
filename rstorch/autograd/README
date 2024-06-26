@@ -11,7 +11,6 @@ optimizer.step()
 **Convex Optimization**
 - Rockafellar
 - Nesterov
-- Bubeck
 - Recht, Wright
 
 **Non-convex Optimization**
@@ -23,7 +22,3 @@ optimizer.step()
 **Online Optimization**
 - Hazan
 - Shwartz
-
-**Parallel Processing**
-- Hwu, Kirk, Hajj
-- Hennesey, Patterson
