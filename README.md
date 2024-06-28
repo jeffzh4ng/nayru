@@ -15,5 +15,6 @@ supervised learning, check out README.tex
 
 ### References
 - Shalev-Shwartz,Ben-David
+- Mohri, Rostamizadeh ,Talwalkar
 - Hardt, Recht
 - MacKay

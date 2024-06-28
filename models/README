@@ -12,11 +12,11 @@
 
 ### References
 
-**Statistical Learning**
+**General (linear, non-linear, and non-parametric)**
 - Murphy
 - Hastie, Tibshirani
 
-**Non-linear Representation Learning**
+**Non-linear Models**
 - Goodfellow, Bengio
 - Prince
 - Bishop
