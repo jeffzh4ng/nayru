@@ -1,23 +1,24 @@
 # Models
 
-### Roadmap
-**Vision**
-- mnist
-- cifar10
-- cifar100
-- tinyimagenet
-- imagenet
-
-**Language**
-
 ### References
+**Foundations**
+Although we don't fully understand *how* LLMs work:
 
-**General (linear, non-linear, and non-parametric)**
-- Murphy
-- Hastie, Tibshirani
+1. no complete mechanistic understanding of LLMs (naturally follows overparameterization)
+2. no satisfying theory for adaptive optimization methods like Adam,
+
+formally understanding the *what* of supervised and unsupervised learning is
+accessible with PAC and AIXI.
+
+- Shalev-Shwartz,Ben-David
+- Mohri, Rostamizadeh ,Talwalkar
+- Hutter, Quarel, Catt
 
 **Non-linear Models**
+- Murphy
+- Hastie, Tibshirani
 - Goodfellow, Bengio
 - Prince
 - Bishop
+- Hardt, Recht
 - Scardapane
